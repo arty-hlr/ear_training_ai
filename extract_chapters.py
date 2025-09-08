@@ -45,8 +45,7 @@ if __name__ == "__main__":
     # for chapter in range(1,len(contents.keys())):
     #     assert contents[chapter] < contents[chapter+1]
 
-    # for chapter in range(1,len(contents.keys())):
-    for chapter in range(51,len(contents.keys())):
+    for chapter in range(1,len(contents.keys())):
         start = contents[chapter] + 30
         end = contents[chapter+1] - 1 + 30
         extract_pages('manual.pdf', f'chapters/chapter_{chapter:02}.pdf', start, end)
