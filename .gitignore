@@ -1,0 +1,7 @@
+new_dictations
+dictations
+chapters
+*.pdf
+.DS_Store
+.autoenv.*
+

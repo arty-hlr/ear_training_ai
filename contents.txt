@@ -1,0 +1,79 @@
+Chapter 1 The Fundamentals of Meter and Rhythm
+Chapter 2 The Fundamentals of Pitch
+Chapter 3 Combining Pitches with Rhythm and Meter
+Chapter 4 Error Detection and Correction
+Chapter 5 More About Meter and Rhythm
+Chapter 6 More About Pitch
+Chapter 7 Notating Rhythm and Meter
+Chapter 8 Notating Pitches
+Chapter 9 Combining Rhythm and Pitch Notation
+Chapter 10 Dictation in Longer Contexts
+Chapter 11 The Fifteen Major Keys
+Chapter 12 Ties and the Dotted Beat
+Chapter 13 More about Intervals: Number and Quality
+Chapter 14 Skips to 7/ti and 2/re as Prefix Neighbors
+Chapter 15 Tempo
+Chapter 16 Compound Meters
+Chapter 17 Introduction to the Minor Mode: Diatonic Minor Through Relative and Parallel Approaches
+Chapter 18 Lower Chromatic Neighbors
+Chapter 19 More About the Minor Mode: Chromatic 6/la and 7/ti Through Modal Borrowing
+Chapter 20 Triplets and Duplets
+Chapter 21 Introduction to Transcription
+Chapter 22 Quadruple Division of the Beat in Simple Meters
+Chapter 23 Conducting Pulse Levels Other Than the Notated Beat
+Chapter 24 Performance Indications
+Chapter 25 The Dominant Triad; Skips to 5/sol, 7/ti, and 2/re
+Chapter 26 The Modern C-Clefs: Alto and Tenor Clefs
+Chapter 27 Skips to 4/fa and 6/la/le as Prefix Neighbors
+Chapter 28 Pentatonicism
+Chapter 29 Sextuple Division of the Beat in Compound Meters
+Chapter 30 Repeat Signs
+Chapter 31 The Subdominant Triad: Skips to 4/fa, 6/la/le, and 1/do
+Chapter 32 Syncopation
+Chapter 33 The Dominant Seventh Chord in Melodic Contexts; Skips to 5/sol, 7/ti, 2/re, and 4/fa
+Chapter 34 Introduction to Harmonic Singing
+Chapter 35 Introduction to Harmonic Listening: Harmonic Rhythm and Cadences
+Chapter 36 Two-Voice Music
+Chapter 37 Introduction to Bass Line Dictation
+Chapter 38 Root Position and First Inversion Triads
+Chapter 39 Introduction to Voice Leading
+Chapter 40 Triad Qualities
+Chapter 41 The Leading-Tone Triad: Skips to 7/ti, 2/re, and 4/fa
+Chapter 42 The Supertonic Triad: Skips to 2/re, 4/fa, and 6/la/le
+Chapter 43 The Submediant Triad: Skips to 6/la/le, 1/do, and 3/mi/me
+Chapter 44 The Mediant Triad: Skips to 3/mi/me, 5/sol, and 7/ti/te
+Chapter 45 The Dominant Seventh Chord in Harmonic Contexts
+Chapter 46 Voice Leading Techniques
+Chapter 47 Six-Four Figures
+Chapter 48 Other Seventh Chords: Skips of a Seventh
+Chapter 49 Transposition
+Chapter 50 The Modes: Relative Approach
+Chapter 51 The Modes: Parallel Approach
+Chapter 52 Advanced Triplets
+Chapter 53 Chromatic Passing Tones
+Chapter 54 Skips to Chromatic Pitches as Prefix Neighbors
+Chapter 55 Chords Applied to the Dominant: Skips Involving 4/fi
+Chapter 56 Chords Applied to the Subdominant: Skips Involving 7/te and 3/mi
+Chapter 57 Chords Applied to the Supertonic: Skips Involving 2/di
+Chapter 58 Chords Applied to the Submediant: Skips Involving 1/si
+Chapter 59 Chords Applied to the Mediant: The 7/te – 3/me Skip in Minor; Skips Involving 2/ri in Major
+Chapter 60 The Neapolitan Chord: Steps and Skips Involving 2/ra
+Chapter 61 The Augmented Sixth Chords: Steps and Skips Involving 4/fi and 6/le
+Chapter 62 Other Chords
+Chapter 63 Melodic Sequence
+Chapter 64 Harmonic Sequence
+Chapter 65 Other Clefs
+Chapter 66 Hemiola
+Chapter 67 Stepwise Chromatic Alterations
+Chapter 68 Reading in Keys Other Than the Notated Key Signature
+Chapter 69 Introduction to Modulation
+Chapter 70 Closely Related Modulation from the Major Mode
+Chapter 71 Closely Related Modulation from the Minor Mode
+Chapter 72 Distant Modulations
+Chapter 73 Successive Modulations
+Chapter 74 Fragments of Tonality
+Chapter 75 Advanced Metric Concepts
+Chapter 76 More Advanced Rhythms
+Chapter 77 Some Common Non-Diatonic Pitch Collections
+Chapter 78 Hypermeter
+Chapter 79 Form
