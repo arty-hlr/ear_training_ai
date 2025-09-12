@@ -19,7 +19,7 @@ signatures = [f"{num} {acc}{'s' if num > 1 else ''}" for num, acc in list(iterto
 def create_dictation(dictation_no):
     print(f'Creating dictation no {chapter_no}.{dictation_no}...')
     key_signature = random.choice(signatures)
-    prompt = template.render(chapter=chapter, chapter_no=chapter_no, dictations=dictations, new_dictation_no=dictation_no, key_signature=key_signature)
+    prompt = template.render(chapter=chapter, chapter_no=chapter_no, previous_chapters=previous_chapters, next_chapters=next_chapters, dictations=dictations, new_dictation_no=dictation_no, key_signature=key_signature)
 
     if os.environ.get('DEBUG', False):
         with open(f'new_dictations/{chapter_no}.{dictation_no:02}_prompt.txt', 'w') as f:
@@ -54,6 +54,19 @@ def create_dictation(dictation_no):
     print('USAGE:')
     print(messages[1].usage)
     print()
+
+    prompt = 'This is a melodic dictation:\n\n'
+    prompt += '<melodic_dictation>'
+    prompt += output
+    prompt += '</melodic_dictation>'
+    prompt += '\n'
+    prompt += "Tell me ONLY the clef the melody is written in, the tonic of the melody (not the key, I don't want to know whether it's major or minor), and bottom half of the time signature of this melodic dictation, nothing else."
+
+    res = agent.run_sync(prompt)
+    chapter_info = res.output
+    print(chapter_info)
+
+    return chapter_info
 
 if __name__ == '__main__':
     if len(sys.argv) <= 1:
@@ -106,10 +119,16 @@ if __name__ == '__main__':
     with open('prompt.j2') as f:
         template = Template(f.read())
 
+    chapter_info = []
     for i in range(len(dictations)+1, len(dictations)+1+len(dictations)):
-        create_dictation(i)
+        chapter_info.append(f'{chapter_no}.{i:02}: {create_dictation(i)}')
         print('Sleeping because of rate limiting...')
         time.sleep(30)
+
+    with open(f'new_dictations/{chapter_no}_info.txt', 'w') as f:
+        chapter_info_txt = '\n'.join(chapter_info)
+        print(chapter_info_txt)
+        f.write(chapter_info_txt)
 
     print('Converting the dictations to mp3...')
     output = subprocess.check_output(f'./play_dictations.sh {chapter_no}', shell=True, text=True)
